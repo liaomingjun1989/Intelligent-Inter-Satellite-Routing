@@ -79,27 +79,7 @@ DQN-Project-Doctor/
   "NETWORK": {
     "number nodes": 500,           // 网络节点数
     "edge degree": 4,               // 边度数
-    "holding capacity": 75,         // 节点最大队列容量
-    "sending capacity": 20,         // 节点最大发送容量
-    "initial num packets": 2500,   // 初始数据包数量
-    "max_additional_packets": 500, // 最大额外数据包数
-    "network_type": "barabasi-albert" // 网络类型
-  },
-  "DQN": {
-    "memory_batch_size": 16,       // 经验回放批次大小
-    "memory_bank_size": 1000,      // 经验回放缓冲区大小
-    "optimizer_learning_rate": 0.005 // 学习率
-  },
-  "AGENT": {
-    "epsilon": 0.7,                // 探索率
-    "decay_epsilon_rate": 0.99998, // 探索率衰减率
-    "gamma_for_next_q_val": 0.6    // 折扣因子
-  },
-  "Simulation": {
-    "training_episodes": 10,       // 训练轮数
-    "max_allowed_time_step_per_episode": 100 // 每轮最大时间步数
-  }
-}
+
 ```
 
 ### 2. 准备网络数据
